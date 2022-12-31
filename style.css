@@ -1,16 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:700|Pacifico');
 
-*, *:after, *:before{
-  box-sizing:border-box;
-  margin:0;
-  padding:0;
-  -webkit-transition: all 100ms ease-in;
-  transition: all 100ms ease-in;
-}
 html{
 	background: #222048;
 }
-
 .feliz{
   width: 100%;
   font-family: 'Pacifico', cursive;
@@ -22,7 +14,7 @@ html{
   top: 50%;
   opacity: 0;
   animation: vem_feliz 2s ease-in-out 7s forwards;
-
+  border: #fff;
 }
 .ano_novo{
   position: absolute;
@@ -45,16 +37,15 @@ html{
 }
 span.seis{
   position: absolute;
-  top: 49%;
+  top: 46%;
   right: 49%;
   margin-right: -200px;
   animation: vai_2016 5s ease-in-out 5s forwards;
 }
 span.sete{
   position: absolute;
-  top: 49%;
   right: 0%;
-  margin-right: -230px;
+  margin-right: -229px;
   animation: vem_2017 6s ease-in-out forwards;
 }
 span.sete:before{
@@ -118,14 +109,12 @@ span.sete:before{
   top: 0;
   left: 0;
   overflow: hidden;
-  
 }
 .fogos>div{
   border: 2px solid #fff;
   position: absolute;
   opacity: 0;
   animation: solta_fogos 1.5s ease-in-out 8s forwards;
-  
 }
 .fogos>div.f1{
   left: 20%;
